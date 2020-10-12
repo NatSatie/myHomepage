@@ -11,6 +11,8 @@ import {
   Route,
   Link
 } from "react-router-dom"
+import Curriculum from '../components/Curriculum'
+import About from '../components/About'
 
 const Menu = () => {
   return(
@@ -28,35 +30,14 @@ const Menu = () => {
               <p>Campinas, SP, Brasil</p>
             </Grid.Column>
           </Grid.Row>
-        </Grid>
-        <Grid textAlign='center'>
-          <Router>
-              <Grid.Row>
-                <Link to="/">
-                  <h3 class="menuTopic"> Página Principal </h3>
-                </Link>
-              </Grid.Row>
-              <Grid.Row>
-                <Link to="/">
-                  <h3 class="menuTopic"> Currículo </h3>
-                </Link>
-              </Grid.Row>
-              <Grid.Row>
-                <Link to="/">
-                  <h3 class="menuTopic"> Habilidades </h3>
-                </Link>
-              </Grid.Row>
-              <Switch>
-                <Route path="/curriculum">
-                </Route>
-                <Route path="/portifolio">
-                </Route>
-                <Route path="/skills">
-                </Route>
-                <Route path="/">
-                </Route>
-              </Switch>
-          </Router>
+          <Grid.Row></Grid.Row>
+          <Grid.Row></Grid.Row>
+          <Grid.Row></Grid.Row>
+          <Grid.Row></Grid.Row>
+          <Grid.Row></Grid.Row>
+          <Grid.Row></Grid.Row>
+          <Grid.Row></Grid.Row>
+          
         </Grid>
       </div>
     </div>

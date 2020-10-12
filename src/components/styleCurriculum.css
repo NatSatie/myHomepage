@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+.curriculumh1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #2C2C2C;
+  font-size: 40px;
+  padding: 5vh 3vw 1vh 3vw;
+}
